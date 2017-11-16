@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Architecture < Web Design "
-date:       2017-11-16 05:09:41 +0000
+title:      "Architecture < Web Design | An Unexpected Journey "
+date:       2017-11-16 00:09:42 -0500
 permalink:  architecture_web_design
 ---
 
