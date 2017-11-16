@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Architecture < Coding
 header-img: img/home-bg.png
 email: michael.landrum.st.marie@gmail.com
 copyright_name: mstmari
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A blog about an architecture student's journey into tech. 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mstmari
