@@ -21,8 +21,8 @@ Self is the current object and the default receiver of method calls when no othe
 
 Now, let us further explore the ideas spatiality in our programs. It is vitally important to always know where you are (read; what scope you are in) so you can easily tell what your variables are referring to and to not confuse them with variables from other scopes that possess similar names or with similarly named methods.
 
-*Just a quick side note and something that has stumped me several times recently, one easy way to help not get confused here is to use as descriptive naming for variables and methods as possible, even if it makes for more verbose code, the ease of being able to quickly recognize what is happening and where is likely worth the extra visual clutter. 
-*
+*Just a quick side note and something that has stumped me several times recently, one easy way to help not get confused here is to use as descriptive naming for variables and methods as possible, even if it makes for more verbose code, the ease of being able to quickly recognize what is happening and where is likely worth the extra visual clutter. *
+
 Global scope is scope that covers the entire program. Global variables are available everywhere, regardless of what self is global variables are still available. Local scope is a basic layer of the fabric of every ruby program, at any given moment your program is in a particular local scope, the main thing that changes from one local scope to another is the availability of local variables.  
 
 Each time you type Class, module of def you create a new space inside your program by defining a new local scope. 
@@ -31,8 +31,8 @@ When someone mentions scope, think of 2 words: variables and visibility. Scop
 
 ![](https://i.imgur.com/v6yhP0t.pnghttp://)
 
-I am working on illustrating some of the diagrams in The Well Grounded Rubyist, this is a mashup of the scope and self diagram from pages 118 and 129. 
-
+*I am working on illustrating some of the diagrams in The Well Grounded Rubyist, this is a mashup of the scope and self diagram from pages 118 and 129. 
+*
 
 https://ruby-doc.org/core-2.2.0/Symbol.html
 
