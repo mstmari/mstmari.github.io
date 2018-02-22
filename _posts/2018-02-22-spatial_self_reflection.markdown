@@ -29,7 +29,7 @@ Each time you type Class, module of def you create a new space inside your progr
 When someone mentions scope, think of 2 words: variables and visibility. Scope is all about where something is visible. It’s about what (variables, constants, methods) is available to you at a given moment. If you understand scope well enough, you should be able to point at any line of your Ruby program and tell which variables are available in that context, and more importantly, which ones are not.
 
 
-![](https://ibb.co/gf9ZoH)
+<img src='https://i.imgur.com/v6yhP0t.png' />
 
 I am working on illustrating some of the diagrams in The Well Grounded Rubyist, this is a mashup of the scope and self diagram from pages 118 and 129. 
 
