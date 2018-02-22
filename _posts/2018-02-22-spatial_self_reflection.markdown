@@ -10,7 +10,8 @@ Spatial metaphors are important to understanding the role of the default object,
 
 As ruby operates on code, things are constantly shifting, and different objects are being addressed which impacts which code gets run and how its output is interpreted. However, there are a few objects that stay the same; integers mean what they mean regardless of where they are in your program,  the keywords def and class can’t be used as variable names, so when you see these you can easily understand what they mean and symbols remain the same regardless of their use in the program. Below is an example taken from ruby-doc.org
 
-	 if Fred is a constant in one context, a method in another, and a class in a third, the Symbol :Fred will be the same object in all three contexts.
+> * if Fred is a constant in one context, a method in another, and a class in a third, the Symbol :Fred will be the same object in all three contexts.*
+
 
 The meaning of most elements in Ruby depends on its context and is place and time in the program. That is why it is important to stay aware of your surroundings and where you are in the program when writing code. If you understand what can change from one context to another and also what triggers a change in context (for example, entering a method definition block) you can always get your bearings in a Ruby program (David A. Black – The Well Grounded Rubyist p.116)
  
@@ -20,8 +21,8 @@ Self is the current object and the default receiver of method calls when no othe
 
 Now, let us further explore the ideas spatiality in our programs. It is vitally important to always know where you are (read; what scope you are in) so you can easily tell what your variables are referring to and to not confuse them with variables from other scopes that possess similar names or with similarly named methods.
 
-Just a quick side note and something that has stumped me several times recently, one easy way to help not get confused here is to use as descriptive naming for variables and methods as possible, even if it makes for more verbose code, the ease of being able to quickly recognize what is happening and where is likely worth the extra visual clutter. 
-
+*Just a quick side note and something that has stumped me several times recently, one easy way to help not get confused here is to use as descriptive naming for variables and methods as possible, even if it makes for more verbose code, the ease of being able to quickly recognize what is happening and where is likely worth the extra visual clutter. 
+*
 Global scope is scope that covers the entire program. Global variables are available everywhere, regardless of what self is global variables are still available. Local scope is a basic layer of the fabric of every ruby program, at any given moment your program is in a particular local scope, the main thing that changes from one local scope to another is the availability of local variables.  
 
 Each time you type Class, module of def you create a new space inside your program by defining a new local scope. 
