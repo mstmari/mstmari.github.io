@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Spatial Self Reflection"
-date:       2018-02-22 22:37:40 +0000
+date:       2018-02-22 17:37:41 -0500
 permalink:  spatial_self_reflection
 ---
 
